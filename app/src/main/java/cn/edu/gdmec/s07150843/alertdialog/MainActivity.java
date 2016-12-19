@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         DialogInterface.OnClickListener lis2 = new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                String str = "";
+                String str ="";
                 switch (which) {
                     case DialogInterface.BUTTON_POSITIVE:
                         str = "我很忙";
